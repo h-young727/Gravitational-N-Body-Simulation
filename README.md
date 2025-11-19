@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Run Code:
+### Run code:
  ```
 g++ -fopenmp -o nbody_cpu nbody_cpu.cpp
 nvcc -o nbody_gpu nbody_gpu.cu
