@@ -4,6 +4,7 @@
 
 ## Requirements
 `build_nbody_simulation.sh` expects a virtual environment named `venv` in the present working directory upon execution.
+
 Install packages:
 ```bash
 pip install -r requirements.txt
