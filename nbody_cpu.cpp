@@ -121,7 +121,6 @@ int main(int argc, char *argv[]) {
     int num_threads = atoi(argv[2]);
     omp_set_num_threads(num_threads);
 
-    srand(0);
     initialize_bodies(num_bodies);
 
     auto start = std::chrono::high_resolution_clock::now();
