@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Run model scripts:
+Run Code:
  ```
 g++ -fopenmp -o nbody_cpu nbody_cpu.cpp
 nvcc -o nbody_gpu nbody_gpu.cu
