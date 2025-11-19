@@ -10,5 +10,8 @@ pip install -r requirements.txt
 
 ## Usage
 Run model scripts:
-
+ ```
+g++ -fopenmp -o nbody_cpu nbody_cpu.cpp
+nvcc -o nbody_gpu nbody_gpu.cu
+sudo bash build_nbody_simulation.sh
  ```
