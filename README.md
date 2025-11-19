@@ -4,9 +4,13 @@
 
 ## Features
 Sequential, OpenMP, and CUDA implementations
+
 Automated benchmarking pipeline
+
 Scaling visualization and animated trajectory output
+
 Deterministic initialization for reproducible experiments
+
 Reflective boundary conditions
 
 ## Requirements
