@@ -6,7 +6,7 @@
 ![erm what the sigma](assets/nbody_simulation_scaling.png)
 
 ## Example Simulation
-![erm what the sigma](https://github.com/Daisyliu6/Daisyliu6/blob/master/me.gif)
+![erm what the sigma](https://github.com/h-young727/Gravitational-N-Body-Simulation/blob/Main/assets/nbody_simulation.gif)
 
 ## Features
 `Sequential, OpenMP, and CUDA implementations`
