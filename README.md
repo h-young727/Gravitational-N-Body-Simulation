@@ -9,8 +9,6 @@
 
 `Scaling visualization and animated trajectory output`
 
-![erm what the sigma](nbody_simulation_scaling.png)
-
 `Deterministic initialization for reproducible experiments`
 
 `Reflective boundary conditions`
