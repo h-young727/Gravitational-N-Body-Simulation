@@ -130,7 +130,6 @@ int main(int argc, char* argv[]) {
     int num_bodies = atoi(argv[1]);
     bodies.resize(num_bodies);
 
-    srand(0);
     initialize_bodies(num_bodies);
 
     auto start = std::chrono::high_resolution_clock::now();
