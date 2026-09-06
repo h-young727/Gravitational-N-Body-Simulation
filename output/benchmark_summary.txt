@@ -1,0 +1,69 @@
+N-Body Benchmark Summary
+bodies=64
+  sequential runtime: 0.001923 s
+  openmp threads=2   runtime=0.001252 s  speedup=1.5361x  efficiency=76.81%
+  openmp threads=4   runtime=0.000722 s  speedup=2.6651x  efficiency=66.63%
+  openmp threads=8   runtime=0.000899 s  speedup=2.1399x  efficiency=26.75%
+  openmp threads=16  runtime=0.094412 s  speedup=0.0204x  efficiency=0.13%
+  gpu runtime=0.025225 s  speedup vs sequential=0.0762x  speedup vs best openmp (4t)=0.0286x
+
+bodies=512
+  sequential runtime: 0.126864 s
+  openmp threads=2   runtime=0.067774 s  speedup=1.8719x  efficiency=93.59%
+  openmp threads=4   runtime=0.042360 s  speedup=2.9949x  efficiency=74.87%
+  openmp threads=8   runtime=0.032701 s  speedup=3.8795x  efficiency=48.49%
+  openmp threads=16  runtime=0.031345 s  speedup=4.0473x  efficiency=25.30%
+  gpu runtime=0.137158 s  speedup vs sequential=0.9249x  speedup vs best openmp (16t)=0.2285x
+
+bodies=1024
+  sequential runtime: 0.499201 s
+  openmp threads=2   runtime=0.249862 s  speedup=1.9979x  efficiency=99.90%
+  openmp threads=4   runtime=0.156030 s  speedup=3.1994x  efficiency=79.98%
+  openmp threads=8   runtime=0.125446 s  speedup=3.9794x  efficiency=49.74%
+  openmp threads=16  runtime=0.067704 s  speedup=7.3733x  efficiency=46.08%
+  gpu runtime=0.245853 s  speedup vs sequential=2.0305x  speedup vs best openmp (16t)=0.2754x
+
+bodies=2048
+  sequential runtime: 1.958570 s
+  openmp threads=2   runtime=1.043650 s  speedup=1.8767x  efficiency=93.83%
+  openmp threads=4   runtime=0.622494 s  speedup=3.1463x  efficiency=78.66%
+  openmp threads=8   runtime=0.485095 s  speedup=4.0375x  efficiency=50.47%
+  openmp threads=16  runtime=0.385520 s  speedup=5.0803x  efficiency=31.75%
+  gpu runtime=0.451549 s  speedup vs sequential=4.3374x  speedup vs best openmp (16t)=0.8538x
+
+bodies=4096
+  sequential runtime: 7.906780 s
+  openmp threads=2   runtime=4.080650 s  speedup=1.9376x  efficiency=96.88%
+  openmp threads=4   runtime=2.383970 s  speedup=3.3166x  efficiency=82.92%
+  openmp threads=8   runtime=1.605910 s  speedup=4.9236x  efficiency=61.54%
+  openmp threads=16  runtime=1.258060 s  speedup=6.2849x  efficiency=39.28%
+  gpu runtime=0.902822 s  speedup vs sequential=8.7579x  speedup vs best openmp (16t)=1.3935x
+
+bodies=8192
+  sequential runtime: 31.024500 s
+  openmp threads=2   runtime=16.202400 s  speedup=1.9148x  efficiency=95.74%
+  openmp threads=4   runtime=9.415060 s  speedup=3.2952x  efficiency=82.38%
+  openmp threads=8   runtime=6.228230 s  speedup=4.9813x  efficiency=62.27%
+  openmp threads=16  runtime=4.573520 s  speedup=6.7835x  efficiency=42.40%
+  gpu runtime=3.403860 s  speedup vs sequential=9.1145x  speedup vs best openmp (16t)=1.3436x
+
+bodies=16384
+  sequential runtime: 125.015000 s
+  openmp threads=2   runtime=65.803700 s  speedup=1.8998x  efficiency=94.99%
+  openmp threads=4   runtime=36.381500 s  speedup=3.4362x  efficiency=85.91%
+  openmp threads=8   runtime=22.598000 s  speedup=5.5321x  efficiency=69.15%
+  openmp threads=16  runtime=18.222000 s  speedup=6.8607x  efficiency=42.88%
+  gpu runtime=14.977000 s  speedup vs sequential=8.3471x  speedup vs best openmp (16t)=1.2167x
+
+bodies=32768
+  sequential runtime: 497.637000 s
+  openmp threads=2   runtime=262.011000 s  speedup=1.8993x  efficiency=94.96%
+  openmp threads=4   runtime=145.855000 s  speedup=3.4119x  efficiency=85.30%
+  openmp threads=8   runtime=86.855200 s  speedup=5.7295x  efficiency=71.62%
+  openmp threads=16  runtime=70.712200 s  speedup=7.0375x  efficiency=43.98%
+  gpu runtime=61.780400 s  speedup vs sequential=8.0549x  speedup vs best openmp (16t)=1.1446x
+
+Headlined Result (N=32768):
+  OpenMP speedup (16 threads): 7.0375x
+  GPU speedup: 8.0549x
+  GPU vs best OpenMP: 1.1446x
