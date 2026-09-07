@@ -22,7 +22,7 @@ cmake ..
 make
 ```
 
-Produces `nbody_main`, `nbody_bench_cpu`, and `nbody_bench_gpu` (the last requires a CUDA compiler such as NVCC).
+Produces `nbody_main`, `nbody_bench_cpu`, and `nbody_bench_gpu` (the third command requires a CUDA compiler such as NVCC).
 
 ```bash
 python3 -m venv .venv
